@@ -1,0 +1,81 @@
+.parent{
+    width: 240px;
+    border: 1px solid;
+    box-shadow: 3px 3px 30px #ccc;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: sans-serif;
+   
+ }
+
+ .parent img{
+    width: 90%;
+    padding: 10px 10px;
+
+ }
+ .parent .top span{
+    background: #6E2594;
+    color: #fff;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: inline-block;
+ }
+
+ .contains{
+   padding: 10px;
+ }
+
+ .contains h4{
+    font-weight: 600;
+    font-size: 16px;
+ }
+ .contains h4:hover{
+   color:#ef4a23;
+   text-decoration: underline;
+   cursor: pointer;   
+ }
+ .contains ul{
+    padding: 15px;
+ }
+ ul li{
+   font-size: 13px;
+   color: #666;
+    margin: 8px;
+ }
+ .del{
+   text-decoration: line-through;
+ }
+ .price{
+   text-align: center;
+   color: #d51e0b;
+ }
+ .discount a{
+   width: 100%;
+    display: block;
+    background-color: rgb(55, 73, 187, .05);
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 5px;
+ }
+ .discount :hover{
+    background: blue;
+    color: #ccc;
+ }
+ .compare{
+   width: 100%;
+   display: block;
+   background-color: wheat;
+   padding: 5px 10px;
+   text-decoration: none;
+   text-align: center;
+   box-sizing: border-box;
+   border-radius: 5px;
+   margin: 1px;
+ }
